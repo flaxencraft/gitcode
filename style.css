@@ -1,0 +1,89 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cyan;
+    background-size: 100vh;
+    background-position: 0;
+}
+
+.container {
+    background-color: rgb(0, 175, 255);
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.element-ul {
+    margin: 4px;
+    text-align: center;
+}
+
+.element-a {
+    color:purple;
+    text-decoration: none;
+}
+
+.element-li {
+    list-style-type: none;
+    color:purple;
+    font-size: 20px;
+}
+
+.element-li:hover {
+    background-color: rgb(60, 0, 60);
+    transition: .5s ease-in-out;
+}
+
+.htp-ul {
+    margin: 4px;
+    text-align: center;
+}
+
+.htp-a {
+    color:gray;
+    text-decoration: none;
+}
+
+.htp-li {
+    list-style: none;
+    color:gray;
+    font-size: 20px;
+}
+
+.htp-li:hover {
+    background-color: rgb(60, 60, 60);
+    transition: .5s ease-in-out;
+}
+
+.skill-ul {
+    margin: 4px;
+    text-align: center;
+}
+
+.skill-a {
+    color:orange;
+    text-decoration: none;
+}
+
+.skill-li {
+    list-style-type: none;
+    color: orange;
+    font-size: 20px;
+}
+
+.skill-li:hover {
+    background-color: rgb(90, 60, 0);
+    transition: .5s ease-in-out;
+}
+
+.gmail-login {
+    background-color: rgb(0, 175, 255);
+    display: flex;
+    justify-content: center;
+    size: 20px;
+
+}
